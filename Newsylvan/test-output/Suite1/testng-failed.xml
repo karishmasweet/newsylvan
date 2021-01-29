@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <test name="Command line test 2df86888-aa4c-4adf-abf3-d532d6bbb10d(failed)">
+    <classes>
+      <class name="Testscript.TC13">
+        <methods>
+          <include name="browserlaunch"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Testscript.TC13 -->
+      <class name="Testscript.TC19">
+        <methods>
+          <include name="browserlaunch"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Testscript.TC19 -->
+      <class name="Testscript.TC18">
+        <methods>
+          <include name="browserlaunch"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Testscript.TC18 -->
+      <class name="Testscript.TC21">
+        <methods>
+          <include name="browserlaunch"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Testscript.TC21 -->
+      <class name="Testscript.TC16">
+        <methods>
+          <include name="browserlaunch"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Testscript.TC16 -->
+      <class name="Testscript.TC15">
+        <methods>
+          <include name="browserlaunch"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Testscript.TC15 -->
+      <class name="Testscript.TC22">
+        <methods>
+          <include name="browserlaunch"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Testscript.TC22 -->
+      <class name="Testscript.TC9">
+        <methods>
+          <include name="browserlaunch"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Testscript.TC9 -->
+      <class name="Testscript.TC12">
+        <methods>
+          <include name="browserlaunch"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Testscript.TC12 -->
+      <class name="Testscript.TC11">
+        <methods>
+          <include name="browserlaunch"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Testscript.TC11 -->
+      <class name="Testscript.TC14">
+        <methods>
+          <include name="browserlaunch"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Testscript.TC14 -->
+      <class name="Testscript.TC20">
+        <methods>
+          <include name="browserlaunch"/>
+          <include name="signinparent_leaveusernameblank_leaveblankpassword"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Testscript.TC20 -->
+      <class name="Testscript.TC17">
+        <methods>
+          <include name="browserlaunch"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Testscript.TC17 -->
+      <class name="Testscript.TC10">
+        <methods>
+          <include name="browserlaunch"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Testscript.TC10 -->
+    </classes>
+  </test> <!-- Command line test 2df86888-aa4c-4adf-abf3-d532d6bbb10d(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
