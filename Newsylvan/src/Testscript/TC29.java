@@ -33,8 +33,7 @@ public class TC29 extends baseclassone
 		signclick.click();
 		
 		Thread.sleep(5000);
-		WebElement mysession=driver.findElement(By.xpath("//a[@id='navbarDropdownMenuLink1']"));
-		mysession.click();
+		driver.get("https://parentsylvantest.clicklabs.in/pages/session-reports/reports");
 		
 		
 	}

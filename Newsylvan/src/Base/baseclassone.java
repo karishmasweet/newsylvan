@@ -14,7 +14,7 @@ public class baseclassone
 	@BeforeMethod
 	 public void browserlaunch() throws InterruptedException, IOException
 	 {
-		System.setProperty("webdriver.chrome.driver","../Sylvan/chromedriver");
+		System.setProperty("webdriver.chrome.driver","../Newsylvan/chromedriver");
 		 ChromeOptions options = new ChromeOptions();
 		 options.setPageLoadStrategy(PageLoadStrategy.NONE);
 		 driver=new ChromeDriver(options);

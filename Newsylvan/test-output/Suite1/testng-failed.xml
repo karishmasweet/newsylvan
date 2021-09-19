@@ -1,93 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite1]">
-  <test name="Command line test 2df86888-aa4c-4adf-abf3-d532d6bbb10d(failed)">
+  <test name="Command line test 6510d1fe-7068-4e64-855e-07f89e38cca4(failed)">
     <classes>
-      <class name="Testscript.TC13">
-        <methods>
-          <include name="browserlaunch"/>
-          <include name="close"/>
-        </methods>
-      </class> <!-- Testscript.TC13 -->
-      <class name="Testscript.TC19">
-        <methods>
-          <include name="browserlaunch"/>
-          <include name="close"/>
-        </methods>
-      </class> <!-- Testscript.TC19 -->
-      <class name="Testscript.TC18">
-        <methods>
-          <include name="browserlaunch"/>
-          <include name="close"/>
-        </methods>
-      </class> <!-- Testscript.TC18 -->
-      <class name="Testscript.TC21">
-        <methods>
-          <include name="browserlaunch"/>
-          <include name="close"/>
-        </methods>
-      </class> <!-- Testscript.TC21 -->
-      <class name="Testscript.TC16">
-        <methods>
-          <include name="browserlaunch"/>
-          <include name="close"/>
-        </methods>
-      </class> <!-- Testscript.TC16 -->
-      <class name="Testscript.TC15">
-        <methods>
-          <include name="browserlaunch"/>
-          <include name="close"/>
-        </methods>
-      </class> <!-- Testscript.TC15 -->
-      <class name="Testscript.TC22">
-        <methods>
-          <include name="browserlaunch"/>
-          <include name="close"/>
-        </methods>
-      </class> <!-- Testscript.TC22 -->
-      <class name="Testscript.TC9">
-        <methods>
-          <include name="browserlaunch"/>
-          <include name="close"/>
-        </methods>
-      </class> <!-- Testscript.TC9 -->
-      <class name="Testscript.TC12">
-        <methods>
-          <include name="browserlaunch"/>
-          <include name="close"/>
-        </methods>
-      </class> <!-- Testscript.TC12 -->
-      <class name="Testscript.TC11">
-        <methods>
-          <include name="browserlaunch"/>
-          <include name="close"/>
-        </methods>
-      </class> <!-- Testscript.TC11 -->
       <class name="Testscript.TC14">
         <methods>
-          <include name="browserlaunch"/>
-          <include name="close"/>
+          <include name="forgotusernameparent_blankemailid"/>
         </methods>
       </class> <!-- Testscript.TC14 -->
+      <class name="Testscript.TC2">
+        <methods>
+          <include name="sign_parent"/>
+        </methods>
+      </class> <!-- Testscript.TC2 -->
+      <class name="Testscript.TC21">
+        <methods>
+          <include name="signinparent_leave_username_blank"/>
+        </methods>
+      </class> <!-- Testscript.TC21 -->
+      <class name="Testscript.TC7">
+        <methods>
+          <include name="forgotpassword_parent"/>
+        </methods>
+      </class> <!-- Testscript.TC7 -->
+      <class name="Testscript.TC8">
+        <methods>
+          <include name="forgotpassword_tutor"/>
+        </methods>
+      </class> <!-- Testscript.TC8 -->
+      <class name="Testscript.TC11">
+        <methods>
+          <include name="signparent_invalidpassword_invalidusername"/>
+        </methods>
+      </class> <!-- Testscript.TC11 -->
+      <class name="Testscript.TC13">
+        <methods>
+          <include name="forgotusernameparent_enterinvalidemail_format"/>
+        </methods>
+      </class> <!-- Testscript.TC13 -->
+      <class name="Testscript.TC5">
+        <methods>
+          <include name="forgotusername_parent"/>
+        </methods>
+      </class> <!-- Testscript.TC5 -->
+      <class name="Testscript.TC4">
+        <methods>
+          <include name="signin_tutor"/>
+        </methods>
+      </class> <!-- Testscript.TC4 -->
+      <class name="Testscript.TC12">
+        <methods>
+          <include name="forgotusername_parent_enterinvalidemail"/>
+        </methods>
+      </class> <!-- Testscript.TC12 -->
+      <class name="Testscript.TC15">
+        <methods>
+          <include name="forgotusernameparent_notregisteredemail"/>
+        </methods>
+      </class> <!-- Testscript.TC15 -->
+      <class name="Testscript.TC18">
+        <methods>
+          <include name="forgotpassword_tutor_invalidemailformat"/>
+        </methods>
+      </class> <!-- Testscript.TC18 -->
+      <class name="Testscript.TC19">
+        <methods>
+          <include name="signin_parent_leave_password_blank"/>
+        </methods>
+      </class> <!-- Testscript.TC19 -->
+      <class name="Testscript.TC16">
+        <methods>
+          <include name="forgotpassword_tutor_enternotregistered_emailid"/>
+        </methods>
+      </class> <!-- Testscript.TC16 -->
+      <class name="Testscript.TC1">
+        <methods>
+          <include name="browserlaunch"/>
+          <include name="signup_parent"/>
+        </methods>
+      </class> <!-- Testscript.TC1 -->
+      <class name="Testscript.TC3">
+        <methods>
+          <include name="signup_tutor"/>
+        </methods>
+      </class> <!-- Testscript.TC3 -->
+      <class name="Testscript.TC9">
+        <methods>
+          <include name="signparent_invalidusernameenter_validpassword"/>
+        </methods>
+      </class> <!-- Testscript.TC9 -->
+      <class name="Testscript.TC23">
+        <methods>
+          <include name="Myprofile_parent"/>
+        </methods>
+      </class> <!-- Testscript.TC23 -->
+      <class name="Testscript.TC22">
+        <methods>
+          <include name="signinparent_leaveusernameblank_leaveblankpassword"/>
+        </methods>
+      </class> <!-- Testscript.TC22 -->
       <class name="Testscript.TC20">
         <methods>
-          <include name="browserlaunch"/>
           <include name="signinparent_leaveusernameblank_leaveblankpassword"/>
-          <include name="close"/>
         </methods>
       </class> <!-- Testscript.TC20 -->
+      <class name="Testscript.TC6">
+        <methods>
+          <include name="forgotusername_tutor"/>
+        </methods>
+      </class> <!-- Testscript.TC6 -->
       <class name="Testscript.TC17">
         <methods>
-          <include name="browserlaunch"/>
-          <include name="close"/>
+          <include name="forgotpassword_tutor_blankemailid"/>
         </methods>
       </class> <!-- Testscript.TC17 -->
-      <class name="Testscript.TC10">
-        <methods>
-          <include name="browserlaunch"/>
-          <include name="close"/>
-        </methods>
-      </class> <!-- Testscript.TC10 -->
     </classes>
-  </test> <!-- Command line test 2df86888-aa4c-4adf-abf3-d532d6bbb10d(failed) -->
+  </test> <!-- Command line test 6510d1fe-7068-4e64-855e-07f89e38cca4(failed) -->
 </suite> <!-- Failed suite [Suite1] -->
