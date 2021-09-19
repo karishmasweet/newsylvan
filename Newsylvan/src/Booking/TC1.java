@@ -58,6 +58,7 @@ public class TC1 extends baseclassone
 		obj.dragAndDropBy(dragbutton,xwidth*3,0).build().perform();
 		Thread.sleep(5000);
 		
+		
 //		Thread.sleep(20000);
 //		String newpop=driver.findElement(By.xpath("//label[contains(text(),'Oops')]")).getText();
 //		System.out.println(newpop);
