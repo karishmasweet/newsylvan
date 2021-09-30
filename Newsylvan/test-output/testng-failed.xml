@@ -3,13 +3,13 @@
 <suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="Booking.TC1">
+      <class name="Booking.TC2">
         <methods>
           <include name="browserlaunch"/>
           <include name="close"/>
-          <include name="bookingflow"/>
+          <include name="bookingflow_singlesession"/>
         </methods>
-      </class> <!-- Booking.TC1 -->
+      </class> <!-- Booking.TC2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

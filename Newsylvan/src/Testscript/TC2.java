@@ -16,7 +16,7 @@ public class TC2 extends baseclassone
 		Signin.click();
 		
 		Thread.sleep(5000);
-		WebElement parentlogin=driver.findElement(By.xpath("(//a[text()='I’m a  Parent'])[1]"));
+		WebElement parentlogin=driver.findElement(By.xpath("//a[contains(text(),'I’m a Parent')][1]"));
 		parentlogin.click();
 		
 		Thread.sleep(5000);

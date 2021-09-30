@@ -15,6 +15,7 @@ public class TC1 extends baseclassone
 	@Test
 	public void signup_parent() throws InterruptedException
 	{
+		Thread.sleep(5000);
 		WebElement Signup=driver.findElement(By.xpath("//button[@id='navbarDropdownMenuLink4']"));
 		Signup.click();
 		
@@ -22,7 +23,7 @@ public class TC1 extends baseclassone
 		//wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[contains(text(),'Orders')]")));
 		//driver.manage().timeouts().implicitlyWait(5,TimeUnit.MILLISECONDS);
 		Thread.sleep(5000);
-		WebElement parent=driver.findElement(By.xpath("(//a[text()='I’m a  Parent'])[2]"));
+		WebElement parent=driver.findElement(By.xpath("//a[contains(text(),'I’m a Parent')][1]"));
 		parent.click();
 		
 		Thread.sleep(5000);

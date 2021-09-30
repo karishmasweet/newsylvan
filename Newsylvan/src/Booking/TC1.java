@@ -22,12 +22,11 @@ public class TC1 extends baseclassone
 	{
 		//String expected="Oops! It doesn’t look like we have tutors that meet the criteria you entered. Try adjusting your preferences to increase your chances for a match! Or, you can call the Sylvan In-Home team at (888) 997-0145 if you would like assistance finding a tutor near you.";
 		
-		Thread.sleep(10000);
 		WebElement Signin=driver.findElement(By.xpath("//a[@id='navbarDropdownMenuLink3']"));
 		Signin.click();
 		
-		Thread.sleep(5000);
-		WebElement parentlogin=driver.findElement(By.xpath("(//a[text()='I’m a  Parent'])[1]"));
+		Thread.sleep(10000);
+		WebElement parentlogin=driver.findElement(By.xpath("//a[contains(text(),'I’m a Parent')][1]"));
 		parentlogin.click();
 		
 		Thread.sleep(5000);
